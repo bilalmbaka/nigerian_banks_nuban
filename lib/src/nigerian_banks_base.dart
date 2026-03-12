@@ -1,7 +1,30 @@
+import 'package:nigerian_banks_nuban/src/data/bank_json.dart';
+
 import 'models/bank.dart';
-import 'data/banks_data.dart';
 
 class NigerianBanks {
+  static final NigerianBanks _instance = NigerianBanks._internal();
+
+  factory NigerianBanks() {
+    return _instance;
+  }
+
+  NigerianBanks._internal() {
+    banks = List<Bank>.from(
+      bankJson.map((e) {
+        return Bank(
+          name: e["name"] as String,
+          slug: e["slug"] as String?,
+          code: e["code"] as String,
+          ussd: e["ussd"] as String?,
+          popularity: (e["popularity"] as int?) ?? 0,
+        );
+      }),
+    );
+  }
+
+  late final List<Bank> banks;
+
   /// Returns a list of all banks.
   List<Bank> getBanks() {
     return banks;
@@ -10,7 +33,9 @@ class NigerianBanks {
   /// Returns a bank by its slug.
   Bank? getBankBySlug(String slug, {List<Bank>? availableBanks}) {
     try {
-      return (availableBanks ?? banks).firstWhere((bank) => bank.slug == slug);
+      return (availableBanks ?? banks).firstWhere(
+        (bank) => bank.slug?.toLowerCase().trim() == slug.toLowerCase().trim(),
+      );
     } catch (e) {
       return null;
     }
@@ -19,7 +44,9 @@ class NigerianBanks {
   /// Returns a bank by its code.
   Bank? getBankByCode(String code, {List<Bank>? availableBanks}) {
     try {
-      return (availableBanks ?? banks).firstWhere((bank) => bank.code == code);
+      return (availableBanks ?? banks).firstWhere(
+        (bank) => bank.code.toLowerCase().trim() == code.toLowerCase().trim(),
+      );
     } catch (e) {
       return null;
     }
@@ -37,7 +64,7 @@ class NigerianBanks {
 
     final source = availableBanks ?? banks;
 
-    return source.where((bank) {
+    final result = source.where((bank) {
       // Skip banks with non-numeric codes (e.g. 035A)
       final isNumeric = RegExp(r'^[0-9]+$').hasMatch(bank.code);
       if (!isNumeric) {
@@ -46,6 +73,8 @@ class NigerianBanks {
 
       return _isNubanValid(bank.code, accountNumber);
     }).toList();
+
+    return _sortByPopularity(result);
   }
 
   /// Finds a bank by name using fuzzy matching.
@@ -81,12 +110,14 @@ class NigerianBanks {
     final normalizedQuery = query.toLowerCase().trim();
     final source = availableBanks ?? banks;
 
-    return source.where((bank) {
+    final result = source.where((bank) {
       return bank.name.toLowerCase().contains(normalizedQuery) ||
-          bank.slug.toLowerCase().contains(normalizedQuery) ||
+          (bank.slug?.toLowerCase().contains(normalizedQuery) == true) ||
           bank.code.toLowerCase().contains(normalizedQuery) ||
           normalizeName(bank.name).contains(normalizeName(query));
     }).toList();
+
+    return _sortByPopularity(result);
   }
 
   // --- Internal Helper Methods ---
@@ -142,5 +173,14 @@ class NigerianBanks {
             (input.length > target.length ? input.length : target.length) *
             100)
         .round();
+  }
+
+  //Sort by popularity.
+  List<Bank> _sortByPopularity(List<Bank> banks) {
+    banks.sort(
+      (previous, current) => current.popularity.compareTo(previous.popularity),
+    );
+
+    return banks;
   }
 }
