@@ -1,1654 +1,1654 @@
-const bankJson = [
+[
   {
     "name": "78 Finance Company Ltd",
     "slug": "78-finance-company-ltd-ng",
     "code": "40195",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "9jaPay MFB",
     "slug": "9japay-microfinance-bank-ng",
     "code": "090629",
     "popularity": 0,
-    "nipCode": "090629",
+    "nipCode": "090629"
   },
   {
     "name": "9mobile 9Payment Service Bank",
     "slug": "9mobile-9payment-service-bank-ng",
     "code": "120001",
     "popularity": 50,
-    "nipCode": "120001",
+    "nipCode": "120001"
   },
   {
     "name": "ABBEY MORTGAGE BANK",
     "slug": "abbey-mortgage-bank-ng",
     "code": "404",
     "popularity": 0,
-    "nipCode": "070010",
+    "nipCode": "070010"
   },
   {
     "name": "ABOVE ONLY MICROFINANCE BANK ",
     "slug": "above-only-mfb",
     "code": "51204",
     "popularity": 0,
-    "nipCode": "090260",
+    "nipCode": "090260"
   },
   {
     "name": "Abulesoro Microfinance Bank Ltd",
     "slug": "abulesoro-mfb-ng",
     "code": "51312",
     "popularity": 0,
-    "nipCode": "090545",
+    "nipCode": "090545"
   },
   {
     "name": "ACCESS BANK",
     "slug": "access-bank",
     "code": "044",
     "popularity": 92,
-    "nipCode": "000014",
+    "nipCode": "000014"
   },
   {
     "name": "Access Bank (Diamond)",
     "slug": "access-bank-diamond",
     "code": "063",
     "popularity": 45,
-    "nipCode": "000014",
+    "nipCode": "000014"
   },
   {
     "name": "ACCION MICROFINANCE BANK",
     "slug": "accion-microfinance-bank-ng",
     "code": "602",
     "popularity": 42,
-    "nipCode": "090134",
+    "nipCode": "090134"
   },
   {
     "name": "Adamawa Mortgage Bank",
     "slug": "adamawa-mortgage-bank-limited-ng",
     "code": "90102",
     "popularity": 0,
-    "nipCode": "070030",
+    "nipCode": "070030"
   },
   {
     "name": "AELLA MFB",
     "slug": "aella-mfb-ng",
     "code": "50315",
     "popularity": 45,
-    "nipCode": "090614",
+    "nipCode": "090614"
   },
   {
     "name": "AG MORTGAGE BANK",
     "slug": "ag-mortgage-bank-ng",
     "code": "90077",
     "popularity": 0,
-    "nipCode": "100028",
+    "nipCode": "100028"
   },
   {
     "name": "Ahmadu Bello University Microfinance Bank",
     "slug": "ahmadu-bello-university-microfinance-bank-ng",
     "code": "50036",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "SMARTCASH PAYMENT SERVICE BANK",
     "slug": "airtel-smartcash-psb-ng",
     "code": "120004",
     "popularity": 50,
-    "nipCode": "120004",
+    "nipCode": "120004"
   },
   {
     "name": "Aku Microfinance Bank",
     "slug": "aku-mfb",
     "code": "51336",
     "popularity": 0,
-    "nipCode": "090531",
+    "nipCode": "090531"
   },
   {
     "name": "Akuchukwu Microfinance Bank Ltd",
     "slug": "akuchukwu-microfinance-bank-limited-ng",
     "code": "090561",
     "popularity": 0,
-    "nipCode": "090561",
+    "nipCode": "090561"
   },
   {
     "name": "AL-BARAKAH MICROFINANCE BANK",
     "slug": "al-barakah-microfinance-bank-ng",
     "code": "50055",
     "popularity": 0,
-    "nipCode": "090133",
+    "nipCode": "090133"
   },
   {
     "name": "ALAT by WEMA",
     "slug": "alat-by-wema",
     "code": "035A",
     "popularity": 70,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Alpha Morgan Bank",
     "slug": "alpha-morgan",
     "code": "108",
     "popularity": 55,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "ALTERNATIVE BANK LIMITED",
     "slug": "the-alternative-bank-ng",
     "code": "000304",
     "popularity": 50,
-    "nipCode": "000037",
+    "nipCode": "000037"
   },
   {
     "name": "AMJU UNIQUE MICROFINANCE BANK",
     "slug": "amju-unique-mfb",
     "code": "50926",
     "popularity": 10,
-    "nipCode": "090180",
+    "nipCode": "090180"
   },
   {
     "name": "ARAMOKO MICROFINANCE BANK",
     "slug": "aramoko-mfb",
     "code": "50083",
     "popularity": 0,
-    "nipCode": "090307",
+    "nipCode": "090307"
   },
   {
     "name": "ASO SAVINGS",
     "slug": "asosavings",
     "code": "401",
     "popularity": 25,
-    "nipCode": "090001",
+    "nipCode": "090001"
   },
   {
     "name": "Assets Microfinance Bank",
     "slug": "assets-microfinance-bank-ng",
     "code": "50092",
     "popularity": 0,
-    "nipCode": "090473",
+    "nipCode": "090473"
   },
   {
     "name": "ASTRAPOLARIS MICROFINANCE BANK",
     "slug": "astrapolaris-mfb",
     "code": "MFB50094",
     "popularity": 0,
-    "nipCode": "090172",
+    "nipCode": "090172"
   },
   {
     "name": "Avuenegbe Microfinance Bank",
     "slug": "avuenegbe-microfinance-bank-ng",
     "code": "090478",
     "popularity": 0,
-    "nipCode": "090478",
+    "nipCode": "090478"
   },
   {
     "name": "AWACASH MICROFINANCE BANK",
     "slug": "awacash-microfinance-bank-ng",
     "code": "51351",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Aztec Microfinance Bank",
     "slug": "aztec-microfinance-bank-limited-ng",
     "code": "51337",
     "popularity": 0,
-    "nipCode": "090540",
+    "nipCode": "090540"
   },
   {
     "name": "BAINES CREDIT MICROFINANCE BANK",
     "slug": "bainescredit-mfb",
     "code": "51229",
     "popularity": 10,
-    "nipCode": "090188",
+    "nipCode": "090188"
   },
   {
     "name": "BANC CORP MICROFINANCE BANK",
     "slug": "banc-corp-microfinance-bank-ng",
     "code": "50117",
     "popularity": 0,
-    "nipCode": "090581",
+    "nipCode": "090581"
   },
   {
     "name": "Bank78 Microfinance Bank",
     "slug": "bank78-microfinance-bank-ng",
     "code": "11072",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "BANKIT MFB",
     "slug": "bankit-microfinance-bank-ltd-ng",
     "code": "50572",
     "popularity": 0,
-    "nipCode": "090275",
+    "nipCode": "090275"
   },
   {
     "name": "Bankly Microfinance Bank",
     "slug": "ampersand-microfinance-bank-ng",
     "code": "51341",
     "popularity": 38,
-    "nipCode": "090529",
+    "nipCode": "090529"
   },
   {
     "name": "BAOBAB MICROFINANCE BANK",
     "slug": "baobab-microfinance-bank-ng",
     "code": "MFB50992",
     "popularity": 38,
-    "nipCode": "090136",
+    "nipCode": "090136"
   },
   {
     "name": "BellBank Microfinance Bank",
     "slug": "bellbank-microfinance-bank-ng",
     "code": "51100",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "BENYSTA MICROFINANCE BANK",
     "slug": "benysta-microfinance-bank-limited",
     "code": "51267",
     "popularity": 0,
-    "nipCode": "090413",
+    "nipCode": "090413"
   },
   {
     "name": "Berachah Microfinance Bank Ltd.",
     "slug": "berachah-microfinance-bank-ltd-ng",
     "code": "50122",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Beststar Microfinance Bank",
     "slug": "beststar-microfinance-bank-ng",
     "code": "50123",
     "popularity": 0,
-    "nipCode": "090615",
+    "nipCode": "090615"
   },
   {
     "name": "BOLD MFB",
     "slug": "bold-mfb-ng",
     "code": "50725",
     "popularity": 0,
-    "nipCode": "090753",
+    "nipCode": "090753"
   },
   {
     "name": "BOSAK MICROFINANCE BANK",
     "slug": "bosak-microfinance-bank-ng",
     "code": "650",
     "popularity": 0,
-    "nipCode": "090176",
+    "nipCode": "090176"
   },
   {
     "name": "BOWEN MICROFINANCE BANK",
     "slug": "bowen-microfinance-bank",
     "code": "50931",
     "popularity": 18,
-    "nipCode": "090148",
+    "nipCode": "090148"
   },
   {
     "name": "Branch International Finance Company Limited",
     "slug": "branch",
     "code": "FC40163",
     "popularity": 40,
-    "nipCode": "050006",
+    "nipCode": "050006"
   },
   {
     "name": "BRENT MORTGAGE BANK",
     "slug": "brent-mortgage-bank-ng",
     "code": "90070",
     "popularity": 0,
-    "nipCode": "070015",
+    "nipCode": "070015"
   },
   {
     "name": "BUYPOWER MICROFINANCE BANK",
     "slug": "buypower-mfb-ng",
     "code": "50645",
     "popularity": 28,
-    "nipCode": "090682",
+    "nipCode": "090682"
   },
   {
     "name": "CARBON",
     "slug": "carbon",
     "code": "565",
     "popularity": 60,
-    "nipCode": "100026",
+    "nipCode": "100026"
   },
   {
     "name": "Cashbridge Microfinance Bank Limited",
     "slug": "cashbridge-mfb-ng",
     "code": "51353",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "CASHCONNECT MICROFINANCE BANK",
     "slug": "cashconnect-mfb-ng",
     "code": "865",
     "popularity": 20,
-    "nipCode": "090360",
+    "nipCode": "090360"
   },
   {
     "name": "CEMCS MICROFINANCE BANK",
     "slug": "cemcs-microfinance-bank",
     "code": "50823",
     "popularity": 0,
-    "nipCode": "090154",
+    "nipCode": "090154"
   },
   {
     "name": "Chanelle Microfinance Bank Limited",
     "slug": "chanelle-microfinance-bank-limited-ng",
     "code": "50171",
     "popularity": 0,
-    "nipCode": "090397",
+    "nipCode": "090397"
   },
   {
     "name": "CHIKUM MICROFINANCE BANK",
     "slug": "chikum-microfinance-bank-ng",
     "code": "312",
     "popularity": 0,
-    "nipCode": "090141",
+    "nipCode": "090141"
   },
   {
     "name": "CITI BANK",
     "slug": "citibank-nigeria",
     "code": "023",
     "popularity": 72,
-    "nipCode": "000009",
+    "nipCode": "000009"
   },
   {
     "name": "CITYCODE MORTAGE BANK",
     "slug": "citycode-mortage-bank-ng",
     "code": "070027",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "CONSUMER MICROFINANCE BANK",
     "slug": "consumer-microfinance-bank-ng",
     "code": "50910",
     "popularity": 0,
-    "nipCode": "090130",
+    "nipCode": "090130"
   },
   {
     "name": "COOL MFB",
     "slug": "cool-microfinance-bank-limited-ng",
     "code": "51458",
     "popularity": 0,
-    "nipCode": "090842",
+    "nipCode": "090842"
   },
   {
     "name": "Cooperative Mortgage Bank",
     "slug": "cooperative-mortgage-bank-ng",
     "code": "90089",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "CORESTEP MICROFINANCE BANK",
     "slug": "corestep-mfb",
     "code": "50204",
     "popularity": 0,
-    "nipCode": "090365",
+    "nipCode": "090365"
   },
   {
     "name": "CORONATION MERCHANT BANK",
     "slug": "coronation-merchant-bank-ng",
     "code": "559",
     "popularity": 42,
-    "nipCode": "060001",
+    "nipCode": "060001"
   },
   {
     "name": "COUNTY FINANCE LTD",
     "slug": "county-finance-limited",
     "code": "FC40128",
     "popularity": 0,
-    "nipCode": "050001",
+    "nipCode": "050001"
   },
   {
     "name": "Credit Direct Limited",
     "slug": "credit-direct-limited-ng",
     "code": "40119",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Crescent Microfinance Bank",
     "slug": "crescent-mfb",
     "code": "51297",
     "popularity": 0,
-    "nipCode": "090526",
+    "nipCode": "090526"
   },
   {
     "name": "Crust Microfinance Bank",
     "slug": "crust-microfinance-bank-ng",
     "code": "090560",
     "popularity": 0,
-    "nipCode": "090560",
+    "nipCode": "090560"
   },
   {
     "name": "CRUTECH MICROFINANCE BANK",
     "slug": "crutech-microfinance-bank-ltd-ng",
     "code": "50216",
     "popularity": 0,
-    "nipCode": "090414",
+    "nipCode": "090414"
   },
   {
     "name": "Dash Microfinance Bank",
     "slug": "dash-microfinance-bank-ng",
     "code": "51368",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Davenport MICROFINANCE BANK",
     "slug": "davenport-microfinance-bank-ng",
     "code": "51334",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Dillon MFB",
     "slug": "dillon-microfinance-bank-ng",
     "code": "51450",
     "popularity": 0,
-    "nipCode": "090828",
+    "nipCode": "090828"
   },
   {
     "name": "DOT MICROFINANCE BANK",
     "slug": "dot-microfinance-bank-ng",
     "code": "50162",
     "popularity": 35,
-    "nipCode": "090470",
+    "nipCode": "090470"
   },
   {
     "name": "EBSU MICROFINANCE BANK",
     "slug": "ebsu-microfinance-bank-ng",
     "code": "50922",
     "popularity": 0,
-    "nipCode": "090427",
+    "nipCode": "090427"
   },
   {
     "name": "ECOBANK",
     "slug": "ecobank-nigeria",
     "code": "050",
     "popularity": 82,
-    "nipCode": "000010",
+    "nipCode": "000010"
   },
   {
     "name": "Ekimogun Microfinance Bank",
     "slug": "ekimogun-mfb-ng",
     "code": "50263",
     "popularity": 10,
-    "nipCode": "090552",
+    "nipCode": "090552"
   },
   {
     "name": "EKONDO MICROFINANCE BANK",
     "slug": "ekondo-microfinance-bank-ng",
     "code": "098",
     "popularity": 28,
-    "nipCode": "090097",
+    "nipCode": "090097"
   },
   {
     "name": "EXCEL FINANCE BANK",
     "slug": "excel-finance-bank-ng",
     "code": "090678",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "EYOWO",
     "slug": "eyowo",
     "code": "50126",
     "popularity": 35,
-    "nipCode": "090328",
+    "nipCode": "090328"
   },
   {
     "name": "Fairmoney Microfinance Bank Ltd",
     "slug": "fairmoney-microfinance-bank-ng",
     "code": "51318",
     "popularity": 63,
-    "nipCode": "090551",
+    "nipCode": "090551"
   },
   {
     "name": "FCMB MICROFINANCE BANK",
     "slug": "fcmb-mfb-ng",
     "code": "51241",
     "popularity": 63,
-    "nipCode": "090409",
+    "nipCode": "090409"
   },
   {
     "name": "Fedeth MFB",
     "slug": "fedeth-mfb-ng",
     "code": "50298",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "FIDELITY BANK",
     "slug": "fidelity-bank",
     "code": "070",
     "popularity": 83,
-    "nipCode": "000007",
+    "nipCode": "000007"
   },
   {
     "name": "Firmus MICROFINANCE BANK",
     "slug": "firmus-mfb",
     "code": "51314",
     "popularity": 12,
-    "nipCode": "090366",
+    "nipCode": "090366"
   },
   {
     "name": "FIRST BANK OF NIGERIA",
     "slug": "first-bank-of-nigeria",
     "code": "011",
     "popularity": 95,
-    "nipCode": "000016",
+    "nipCode": "000016"
   },
   {
     "name": "FIRST CITY MONUMENT BANK",
     "slug": "first-city-monument-bank",
     "code": "214",
     "popularity": 85,
-    "nipCode": "000003",
+    "nipCode": "000003"
   },
   {
     "name": "First Option MICROFINANCE BANK",
     "slug": "first-option-mfb-ng",
     "code": "50934",
     "popularity": 0,
-    "nipCode": "090285",
+    "nipCode": "090285"
   },
   {
     "name": "FIRST ROYAL MICROFINANCE BANK",
     "slug": "first-royal-microfinance-bank-ng",
     "code": "090164",
     "popularity": 0,
-    "nipCode": "090164",
+    "nipCode": "090164"
   },
   {
     "name": "FIRSTMIDAS MFB",
     "slug": "firstmidas-mfb-ng",
     "code": "51333",
     "popularity": 0,
-    "nipCode": "090575",
+    "nipCode": "090575"
   },
   {
     "name": "FIRST TRUST MORTGAGE BANK PLC",
     "slug": "firsttrust-mortgage-bank-nigeria-ng",
     "code": "413",
     "popularity": 20,
-    "nipCode": "090107",
+    "nipCode": "090107"
   },
   {
     "name": "Fortress Microfinance Bank",
     "slug": "fortress-mfb-ng",
     "code": "D53",
     "popularity": 0,
-    "nipCode": "090486",
+    "nipCode": "090486"
   },
   {
     "name": "FSDH",
     "slug": "fsdh-merchant-bank-limited",
     "code": "501",
     "popularity": 38,
-    "nipCode": "400001",
+    "nipCode": "400001"
   },
   {
     "name": "FUTMINNA MICROFINANCE BANK",
     "slug": "futminna-microfinance-bank-ng",
     "code": "832",
     "popularity": 10,
-    "nipCode": "090438",
+    "nipCode": "090438"
   },
   {
     "name": "Garun Mallam MFB",
     "slug": "garun-mallam-mfb-ng",
     "code": "MFB51093",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "GATEWAY MORTGAGE BANK",
     "slug": "gateway-mortgage-bank",
     "code": "812",
     "popularity": 0,
-    "nipCode": "070009",
+    "nipCode": "070009"
   },
   {
     "name": "GLOBUS BANK",
     "slug": "globus-bank",
     "code": "00103",
     "popularity": 65,
-    "nipCode": "000027",
+    "nipCode": "000027"
   },
   {
     "name": "Goldman MICROFINANCE BANK",
     "slug": "goldman-mfb-ng",
     "code": "090574",
     "popularity": 10,
-    "nipCode": "090574",
+    "nipCode": "090574"
   },
   {
     "name": "Gomoney",
     "slug": "gomoney",
     "code": "100022",
     "popularity": 30,
-    "nipCode": "100022",
+    "nipCode": "100022"
   },
   {
     "name": "GOOD SHEPHERD MICROFINANCE BANK",
     "slug": "good-shepherd-microfinance-bank-ng",
     "code": "090664",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Goodnews Microfinance Bank",
     "slug": "goodnews-microfinance-bank-ng",
     "code": "50739",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "GREENWICH MERCHANT BANK",
     "slug": "greenwich-merchant-bank-ng",
     "code": "562",
     "popularity": 38,
-    "nipCode": "060004",
+    "nipCode": "060004"
   },
   {
     "name": "GROOMING MICROFINANCE BANK",
     "slug": "grooming-microfinance-bank-ng",
     "code": "51276",
     "popularity": 0,
-    "nipCode": "090195",
+    "nipCode": "090195"
   },
   {
     "name": "GTI MICROFINANCE BANK",
     "slug": "gti-mfb-ng",
     "code": "50368",
     "popularity": 0,
-    "nipCode": "090385",
+    "nipCode": "090385"
   },
   {
     "name": "GTBANK PLC",
     "slug": "guaranty-trust-bank",
     "code": "058",
     "popularity": 93,
-    "nipCode": "000013",
+    "nipCode": "000013"
   },
   {
     "name": "HACKMAN MICROFINANCE BANK",
     "slug": "hackman-microfinance-bank",
     "code": "51251",
     "popularity": 12,
-    "nipCode": "090147",
+    "nipCode": "090147"
   },
   {
     "name": "HASAL MICROFINANCE BANK",
     "slug": "hasal-microfinance-bank",
     "code": "50383",
     "popularity": 12,
-    "nipCode": "090121",
+    "nipCode": "090121"
   },
   {
     "name": "HAYAT TRUST MFB",
     "slug": "hayat-trust-mfb-ng",
     "code": "51364",
     "popularity": 0,
-    "nipCode": "090777",
+    "nipCode": "090777"
   },
   {
     "name": "HOPEPSB",
     "slug": "hopepsb-ng",
     "code": "120002",
     "popularity": 50,
-    "nipCode": "120002",
+    "nipCode": "120002"
   },
   {
     "name": "IBANK MICROFINANCE BANK",
     "slug": "IBANK-mfb",
     "code": "51211",
     "popularity": 22,
-    "nipCode": "090115",
+    "nipCode": "090115"
   },
   {
     "name": "IBBU MFB",
     "slug": "ibbu-mfb-ng",
     "code": "51279",
     "popularity": 0,
-    "nipCode": "090697",
+    "nipCode": "090697"
   },
   {
     "name": "IBILE MICROFINANCE BANK",
     "slug": "ibile-mfb",
     "code": "51244",
     "popularity": 32,
-    "nipCode": "090118",
+    "nipCode": "090118"
   },
   {
     "name": "IBOM MORTGAGE BANK",
     "slug": "ibom-mortgage-bank-ng",
     "code": "90012",
     "popularity": 0,
-    "nipCode": "070025",
+    "nipCode": "070025"
   },
   {
     "name": "Ikoyi-Osun Microfinance Bank",
     "slug": "ikoyi-osun-mfb",
     "code": "50439",
     "popularity": 10,
-    "nipCode": "090536",
+    "nipCode": "090536"
   },
   {
     "name": "Ilaro Poly Microfinance Bank Ltd",
     "slug": "ilaro-poly-microfinance-bank-ng",
     "code": "50442",
     "popularity": 10,
-    "nipCode": "090571",
+    "nipCode": "090571"
   },
   {
     "name": "Imowo MICROFINANCE BANK",
     "slug": "imowo-mfb-ng",
     "code": "50453",
     "popularity": 10,
-    "nipCode": "090417",
+    "nipCode": "090417"
   },
   {
     "name": "IMPERIAL HOMES MORTAGE BANK",
     "slug": "imperial-homes-mortage-bank-ng",
     "code": "415",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "INDULGE MICROFINANCE BANK",
     "slug": "indulge-mfb-ng",
     "code": "51392",
     "popularity": 0,
-    "nipCode": "090772",
+    "nipCode": "090772"
   },
   {
     "name": "INEBA GOGO MFB",
     "slug": "ineba-gogo-mfb-ng",
     "code": "51462",
     "popularity": 0,
-    "nipCode": "090838",
+    "nipCode": "090838"
   },
   {
     "name": "Infinity MICROFINANCE BANK",
     "slug": "infinity-mfb",
     "code": "50457",
     "popularity": 20,
-    "nipCode": "090157",
+    "nipCode": "090157"
   },
   {
     "name": "Infinity trust Mortgage Bank",
     "slug": "infinity-trust-mortgage-bank-ng",
     "code": "070016",
     "popularity": 15,
-    "nipCode": "070016",
+    "nipCode": "070016"
   },
   {
     "name": "ISUA MICROFINANCE BANK",
     "slug": "isua-mfb-ng",
     "code": "090701",
     "popularity": 0,
-    "nipCode": "090701",
+    "nipCode": "090701"
   },
   {
     "name": "JAIZ BANK",
     "slug": "jaiz-bank",
     "code": "301",
     "popularity": 70,
-    "nipCode": "000006",
+    "nipCode": "000006"
   },
   {
     "name": "Kadpoly MICROFINANCE BANK",
     "slug": "kadpoly-mfb",
     "code": "50502",
     "popularity": 0,
-    "nipCode": "090320",
+    "nipCode": "090320"
   },
   {
     "name": "KANO POLY MFB",
     "slug": "kanopoly-mfb-ng",
     "code": "51308",
     "popularity": 0,
-    "nipCode": "090592",
+    "nipCode": "090592"
   },
   {
     "name": "Kayvee Microfinance Bank",
     "slug": "kayvee-microfinance-bank-ng",
     "code": "5129",
     "popularity": 0,
-    "nipCode": "090554",
+    "nipCode": "090554"
   },
   {
     "name": "Kebbi Homes Savings and Loans Limited",
     "slug": "kebbi-homes-savings-and-loans-limited-ng",
     "code": "90028",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "KEYSTONE BANK",
     "slug": "keystone-bank",
     "code": "082",
     "popularity": 72,
-    "nipCode": "000002",
+    "nipCode": "000002"
   },
   {
     "name": "Kolomoni MICROFINANCE BANK",
     "slug": "kolomoni-mfb-ng",
     "code": "899",
     "popularity": 20,
-    "nipCode": "090480",
+    "nipCode": "090480"
   },
   {
     "name": "KONGAPAY",
     "slug": "kongapay-tech-ltd",
     "code": "100025",
     "popularity": 38,
-    "nipCode": "100025",
+    "nipCode": "100025"
   },
   {
     "name": "Kredi Money MICROFINANCE BANK",
     "slug": "kredi-money-mfb",
     "code": "50200",
     "popularity": 25,
-    "nipCode": "090380",
+    "nipCode": "090380"
   },
   {
     "name": "Kuda MICROFINANCE BANK",
     "slug": "kuda-bank",
     "code": "50211",
     "popularity": 88,
-    "nipCode": "090267",
+    "nipCode": "090267"
   },
   {
     "name": "Lagos Building and Investment Company",
     "slug": "lbic-plc",
     "code": "90052",
     "popularity": 15,
-    "nipCode": "070012",
+    "nipCode": "070012"
   },
   {
     "name": "Letshego MFB",
     "slug": "letshego-microfinance-bank",
     "code": "090420",
     "popularity": 28,
-    "nipCode": "090420",
+    "nipCode": "090420"
   },
   {
     "name": "Links MICROFINANCE BANK",
     "slug": "links-mfb",
     "code": "50549",
     "popularity": 15,
-    "nipCode": "090435",
+    "nipCode": "090435"
   },
   {
     "name": "LivingTrust Mortgage Bank PLC",
     "slug": "living-trust-mortgage-bank",
     "code": "031",
     "popularity": 15,
-    "nipCode": "070007",
+    "nipCode": "070007"
   },
   {
     "name": "LOMA MFB",
     "slug": "loma-mfb-ng",
     "code": "50491",
     "popularity": 10,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "LOTUS BANK",
     "slug": "lotus-bank",
     "code": "303",
     "popularity": 60,
-    "nipCode": "000029",
+    "nipCode": "000029"
   },
   {
     "name": "MAAL MFB",
     "slug": "maal-mfb-ng",
     "code": "51444",
     "popularity": 0,
-    "nipCode": "090764",
+    "nipCode": "090764"
   },
   {
     "name": "MAINSTREET MICROFINANCE BANK",
     "slug": "mainstreet-microfinance-bank-ng",
     "code": "090171",
     "popularity": 0,
-    "nipCode": "090171",
+    "nipCode": "090171"
   },
   {
     "name": "Mayfair MICROFINANCE BANK",
     "slug": "mayfair-mfb",
     "code": "50563",
     "popularity": 18,
-    "nipCode": "090321",
+    "nipCode": "090321"
   },
   {
     "name": "MAYFRESH MORTGAGE BANK",
     "slug": "mayfresh-mortgage-bank-ng",
     "code": "90003",
     "popularity": 0,
-    "nipCode": "070019",
+    "nipCode": "070019"
   },
   {
     "name": "Mega MFB",
     "slug": "mega-microfinance-bank-ng",
     "code": "50570",
     "popularity": 0,
-    "nipCode": "090824",
+    "nipCode": "090824"
   },
   {
     "name": "MINT MFB",
     "slug": "mint-mfb",
     "code": "50304",
     "popularity": 22,
-    "nipCode": "090763",
+    "nipCode": "090763"
   },
   {
     "name": "MINT-FINEX MFB",
     "slug": "mint-finex-mfb-ng",
     "code": "09",
     "popularity": 20,
-    "nipCode": "090281",
+    "nipCode": "090281"
   },
   {
     "name": "MONEY MASTER PSB",
     "slug": "money-master-psb-ng",
     "code": "946",
     "popularity": 50,
-    "nipCode": "120005",
+    "nipCode": "120005"
   },
   {
     "name": "Moniepoint MICROFINANCE BANK",
     "slug": "moniepoint-mfb-ng",
     "code": "50515",
     "popularity": 92,
-    "nipCode": "090405",
+    "nipCode": "090405"
   },
   {
     "name": "MTN Momo PSB",
     "slug": "mtn-momo-psb-ng",
     "code": "120003",
     "popularity": 65,
-    "nipCode": "120003",
+    "nipCode": "120003"
   },
   {
     "name": "MUTUAL BENEFITS MICROFINANCE BANK",
     "slug": "mutual-benefits-microfinance-bank-ng",
     "code": "090190",
     "popularity": 0,
-    "nipCode": "090190",
+    "nipCode": "090190"
   },
   {
     "name": "NDCC MICROFINANCE BANK",
     "slug": "ndcc-microfinance-bank-ng",
     "code": "090679",
     "popularity": 15,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "NET MICROFINANCE BANK",
     "slug": "net-microfinance-bank-ng",
     "code": "51361",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "NIGERIAN NAVY MICROFINANCE BANK",
     "slug": "nigerian-navy-microfinance-bank-limited-ng",
     "code": "51142",
     "popularity": 25,
-    "nipCode": "090263",
+    "nipCode": "090263"
   },
   {
     "name": "NIRSAL MICROFINANCE",
     "slug": "nirsal-microfinance-ng",
     "code": "51304",
     "popularity": 42,
-    "nipCode": "090194",
+    "nipCode": "090194"
   },
   {
     "name": "NOMBANK MFB",
     "slug": "nombank-mfb-ng",
     "code": "50072",
     "popularity": 0,
-    "nipCode": "090645",
+    "nipCode": "090645"
   },
   {
     "name": "NOVA BANK",
     "slug": "nova-bank-ng",
     "code": "561",
     "popularity": 58,
-    "nipCode": "060003",
+    "nipCode": "060003"
   },
   {
     "name": "NOVUS MFB",
     "slug": "novus-mfb-ng",
     "code": "51371",
     "popularity": 0,
-    "nipCode": "090734",
+    "nipCode": "090734"
   },
   {
     "name": "NPF MICROFINANCE BANK",
     "slug": "npf-microfinance-bank-ng",
     "code": "50629",
     "popularity": 40,
-    "nipCode": "070001",
+    "nipCode": "070001"
   },
   {
     "name": "NSUK MICROFINANACE BANK",
     "slug": "nsuk-microfinanace-bank-ng",
     "code": "51261",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "OLABISI ONABANJO UNIVERSITY MICROFINANCE",
     "slug": "olabisi-onabanjo-university-microfinance-bank-ng",
     "code": "50689",
     "popularity": 0,
-    "nipCode": "090272",
+    "nipCode": "090272"
   },
   {
     "name": "Oluchukwu Microfinance Bank",
     "slug": "oluchukwu-microfinance-bank-ltd-ng",
     "code": "50697",
     "popularity": 0,
-    "nipCode": "090471",
+    "nipCode": "090471"
   },
   {
     "name": "OPAY",
     "slug": "paycom",
     "code": "100004",
     "popularity": 92,
-    "nipCode": "100004",
+    "nipCode": "100004"
   },
   {
     "name": "OPTIMUS BANK",
     "slug": "optimus-bank-ltd",
     "code": "107",
     "popularity": 70,
-    "nipCode": "000036",
+    "nipCode": "000036"
   },
   {
     "name": "PAGA",
     "slug": "paga",
     "code": "100002",
     "popularity": 78,
-    "nipCode": "100002",
+    "nipCode": "100002"
   },
   {
     "name": "PALMPAY",
     "slug": "palmpay",
     "code": "999991",
     "popularity": 91,
-    "nipCode": "100033",
+    "nipCode": "100033"
   },
   {
     "name": "PARALLEX BANK",
     "slug": "parallex-bank",
     "code": "104",
     "popularity": 48,
-    "nipCode": "000030",
+    "nipCode": "000030"
   },
   {
     "name": "Parkway-ReadyCash",
     "slug": "parkway-ready-cash",
     "code": "311",
     "popularity": 22,
-    "nipCode": "100003",
+    "nipCode": "100003"
   },
   {
     "name": "PATHFINDER MFB",
     "slug": "pathfinder-microfinance-bank-limited-ng",
     "code": "090680",
     "popularity": 0,
-    "nipCode": "090680",
+    "nipCode": "090680"
   },
   {
     "name": "Paystack MFB",
     "slug": "paystack-mfb-ng",
     "code": "51457",
     "popularity": 65,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "PAYSTACK-TITAN",
     "slug": "titan-paystack",
     "code": "100039",
     "popularity": 65,
-    "nipCode": "100039",
+    "nipCode": "100039"
   },
   {
     "name": "PEACE MICROFINANCE BANK",
     "slug": "peace-microfinance-bank-ng",
     "code": "50743",
     "popularity": 0,
-    "nipCode": "090402",
+    "nipCode": "090402"
   },
   {
     "name": "PECANTRUST MICROFINANCE BANK",
     "slug": "pecantrust-microfinance-bank-limited-ng",
     "code": "51226",
     "popularity": 0,
-    "nipCode": "090137",
+    "nipCode": "090137"
   },
   {
     "name": "Personal Trust MFB",
     "slug": "personal-trust-mfb-ng",
     "code": "51146",
     "popularity": 15,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Petra Mircofinance Bank",
     "slug": "petra-microfinance-bank-plc",
     "code": "50746",
     "popularity": 18,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "Pettysave MFB",
     "slug": "pettysave-mfb-ng",
     "code": "MFB51452",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "PFI FINANCE COMPANY LIMITED",
     "slug": "pfi-finance-company-limited-ng",
     "code": "050021",
     "popularity": 0,
-    "nipCode": "050021",
+    "nipCode": "050021"
   },
   {
     "name": "PLATINUM MORTGAGE BANK",
     "slug": "platinum-mortgage-bank-ng",
     "code": "268",
     "popularity": 0,
-    "nipCode": "070013",
+    "nipCode": "070013"
   },
   {
     "name": "PocketApp",
     "slug": "pocket",
     "code": "00716",
     "popularity": 48,
-    "nipCode": "100042",
+    "nipCode": "100042"
   },
   {
     "name": "POLARIS BANK",
     "slug": "polaris-bank",
     "code": "076",
     "popularity": 76,
-    "nipCode": "000008",
+    "nipCode": "000008"
   },
   {
     "name": "Polyunwana MICROFINANCE BANK",
     "slug": "polyunwana-mfb-ng",
     "code": "50864",
     "popularity": 0,
-    "nipCode": "090296",
+    "nipCode": "090296"
   },
   {
     "name": "Premium Trust Bank",
     "slug": "premiumtrust-bank-ng",
     "code": "105",
     "popularity": 70,
-    "nipCode": "000031",
+    "nipCode": "000031"
   },
   {
     "name": "Prospa Capital MICROFINANCE BANK",
     "slug": "prospa-capital-microfinance-bank-ng",
     "code": "50739",
     "popularity": 0,
-    "nipCode": "090495",
+    "nipCode": "090495"
   },
   {
     "name": "PROSPERIS FINANCE LIMITED",
     "slug": "prosperis-finance-limited-ng",
     "code": "050023",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "PROVIDUS BANK",
     "slug": "providus-bank",
     "code": "101",
     "popularity": 70,
-    "nipCode": "000023",
+    "nipCode": "000023"
   },
   {
     "name": "QuickFund MICROFINANCE BANK",
     "slug": "quickfund-mfb",
     "code": "51293",
     "popularity": 18,
-    "nipCode": "090261",
+    "nipCode": "090261"
   },
   {
     "name": "RAND MERCHANT BANK",
     "slug": "rand-merchant-bank",
     "code": "502",
     "popularity": 35,
-    "nipCode": "000024",
+    "nipCode": "000024"
   },
   {
     "name": "RANDALPHA MICROFINANCE BANK",
     "slug": "randalpha-microfinance-bank-ng",
     "code": "090496",
     "popularity": 0,
-    "nipCode": "090496",
+    "nipCode": "090496"
   },
   {
     "name": "REFUGE MORTGAGE BANK",
     "slug": "refuge-mortgage-bank",
     "code": "90067",
     "popularity": 0,
-    "nipCode": "070011",
+    "nipCode": "070011"
   },
   {
     "name": "Rehoboth Microfinance Bank",
     "slug": "rehoboth-microfinance-bank-ng",
     "code": "50761",
     "popularity": 0,
-    "nipCode": "090463",
+    "nipCode": "090463"
   },
   {
     "name": "REPHIDIM MICROFINANCE BANK",
     "slug": "rephidim",
     "code": "50994",
     "popularity": 0,
-    "nipCode": "090322",
+    "nipCode": "090322"
   },
   {
     "name": "Retrust Mfb",
     "slug": "retrust-mfb-ng",
     "code": "51375",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "RIGO MICROFINANCE BANK",
     "slug": "rigo-microfinance-bank-limited-ng",
     "code": "51286",
     "popularity": 0,
-    "nipCode": "090433",
+    "nipCode": "090433"
   },
   {
     "name": "Rockshield Microfinance Bank",
     "slug": "rockshield-microfinance-bank-ng",
     "code": "50767",
     "popularity": 0,
-    "nipCode": "090547",
+    "nipCode": "090547"
   },
   {
     "name": "Rubies MICROFINANCE BANK",
     "slug": "rubies-mfb",
     "code": "125",
     "popularity": 55,
-    "nipCode": "090175",
+    "nipCode": "090175"
   },
   {
     "name": "Safe Haven MICROFINANCE BANK",
     "slug": "safe-haven-mfb-ng",
     "code": "51113",
     "popularity": 45,
-    "nipCode": "090286",
+    "nipCode": "090286"
   },
   {
     "name": "SAGEGREY FINANCE LIMITED",
     "slug": "sage-grey-finance-limited-ng",
     "code": "40165",
     "popularity": 0,
-    "nipCode": "050003",
+    "nipCode": "050003"
   },
   {
     "name": "Shield MICROFINANCE BANK ltd",
     "slug": "shield-mfb-ng",
     "code": "50582",
     "popularity": 0,
-    "nipCode": "090559",
+    "nipCode": "090559"
   },
   {
     "name": "SIGNATURE BANK",
     "slug": "signature-bank-ltd-ng",
     "code": "106",
     "popularity": 65,
-    "nipCode": "000034",
+    "nipCode": "000034"
   },
   {
     "name": "Solid Allianze MICROFINANCE BANK",
     "slug": "solid-allianze-mfb",
     "code": "51062",
     "popularity": 0,
-    "nipCode": "090506",
+    "nipCode": "090506"
   },
   {
     "name": "SolidRock MICROFINANCE BANK",
     "slug": "solid-rock-mfb",
     "code": "50800",
     "popularity": 0,
-    "nipCode": "090524",
+    "nipCode": "090524"
   },
   {
     "name": "SPARKLE",
     "slug": "sparkle-microfinance-bank",
     "code": "51310",
     "popularity": 57,
-    "nipCode": "090325",
+    "nipCode": "090325"
   },
   {
     "name": "SPRINGFIELD MICROFINANCE BANK",
     "slug": "springfield-microfinance-bank-ng",
     "code": "51429",
     "popularity": 0,
-    "nipCode": "090806",
+    "nipCode": "090806"
   },
   {
     "name": "STANBIC IBTC BANK",
     "slug": "stanbic-ibtc-bank",
     "code": "221",
     "popularity": 82,
-    "nipCode": "000012",
+    "nipCode": "000012"
   },
   {
     "name": "STANDARD CHARTERED BANK",
     "slug": "standard-chartered-bank",
     "code": "068",
     "popularity": 72,
-    "nipCode": "000021",
+    "nipCode": "000021"
   },
   {
     "name": "STANFORD MICROFINANCE BANK",
     "slug": "stanford-microfinance-bank-ng",
     "code": "090162",
     "popularity": 0,
-    "nipCode": "090162",
+    "nipCode": "090162"
   },
   {
     "name": "STATESIDE MFB",
     "slug": "stateside-microfinance-bank-ng",
     "code": "50809",
     "popularity": 0,
-    "nipCode": "090583",
+    "nipCode": "090583"
   },
   {
     "name": "STB MORTGAGE BANK",
     "slug": "stb-mortgage-bank-ng",
     "code": "070022",
     "popularity": 0,
-    "nipCode": "070022",
+    "nipCode": "070022"
   },
   {
     "name": "Stellas MICROFINANCE BANK",
     "slug": "stellas-mfb",
     "code": "51253",
     "popularity": 0,
-    "nipCode": "090262",
+    "nipCode": "090262"
   },
   {
     "name": "STERLING BANK",
     "slug": "sterling-bank",
     "code": "232",
     "popularity": 79,
-    "nipCode": "000001",
+    "nipCode": "000001"
   },
   {
     "name": "Summit Bank",
     "slug": "summit-bank-ng",
     "code": "00305",
     "popularity": 65,
-    "nipCode": "080030",
+    "nipCode": "080030"
   },
   {
     "name": "SUNTRUST BANK",
     "slug": "suntrust-bank",
     "code": "100",
     "popularity": 55,
-    "nipCode": "000022",
+    "nipCode": "000022"
   },
   {
     "name": "Supreme MICROFINANCE BANK LTD",
     "slug": "supreme-mfb-ng",
     "code": "50968",
     "popularity": 0,
-    "nipCode": "090564",
+    "nipCode": "090564"
   },
   {
     "name": "Sycamore MFB",
     "slug": "sycamore-microfinance-bank-ng",
     "code": "51056",
     "popularity": 0,
-    "nipCode": "090827",
+    "nipCode": "090827"
   },
   {
     "name": "TAJ BANK",
     "slug": "taj-bank",
     "code": "302",
     "popularity": 68,
-    "nipCode": "000026",
+    "nipCode": "000026"
   },
   {
     "name": "TANGERINE MONEY",
     "slug": "tangerine-money",
     "code": "51269",
     "popularity": 65,
-    "nipCode": "090426",
+    "nipCode": "090426"
   },
   {
     "name": "Tatum Bank",
     "slug": "tatum-bank-ng",
     "code": "109",
     "popularity": 50,
-    "nipCode": "000042",
+    "nipCode": "000042"
   },
   {
     "name": "TENN",
     "slug": "tenn-ng",
     "code": "51403",
     "popularity": 0,
-    "nipCode": "090716",
+    "nipCode": "090716"
   },
   {
     "name": "THINK FINANCE MICROFINANCE BANK",
     "slug": "think-finance-microfinance-bank-ng",
     "code": "677",
     "popularity": 0,
-    "nipCode": "090373",
+    "nipCode": "090373"
   },
   {
     "name": "Titan Bank",
     "slug": "titan-bank",
     "code": "102",
     "popularity": 65,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "TransPay MICROFINANCE BANK",
     "slug": "transpay-mfb-ng",
     "code": "090708",
     "popularity": 0,
-    "nipCode": "090708",
+    "nipCode": "090708"
   },
   {
     "name": "TRUSTBANC J6 MICROFINANCE BANK LIMITED",
     "slug": "trustbanc-j6-microfinance-bank-ng",
     "code": "51118",
     "popularity": 0,
-    "nipCode": "090123",
+    "nipCode": "090123"
   },
   {
     "name": "U&C Microfinance Bank Ltd (U AND C MFB)",
     "slug": "uc-microfinance-bank-ltd-u-and-c-mfb-ng",
     "code": "50840",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "UCEE MICROFINANCE BANK",
     "slug": "ucee-mfb-ng",
     "code": "090706",
     "popularity": 0,
-    "nipCode": "090706",
+    "nipCode": "090706"
   },
   {
     "name": "Uhuru MICROFINANCE BANK",
     "slug": "uhuru-mfb-ng",
     "code": "51322",
     "popularity": 0,
-    "nipCode": "090517",
+    "nipCode": "090517"
   },
   {
     "name": "Ultraviolet MFB",
     "slug": "ultraviolet-microfinance-bank-ng",
     "code": "51080",
     "popularity": 0,
-    "nipCode": "090781",
+    "nipCode": "090781"
   },
   {
     "name": "UNAAB MICROFINANCE BANK",
     "slug": "unaab-microfinance-bank-limited-ng",
     "code": "50870",
     "popularity": 0,
-    "nipCode": "090331",
+    "nipCode": "090331"
   },
   {
     "name": "UNIABUJA MFB",
     "slug": "uniabuja-mfb",
     "code": "51447",
     "popularity": 0,
-    "nipCode": "090778",
+    "nipCode": "090778"
   },
   {
     "name": "Unical MICROFINANCE BANK",
     "slug": "unical-mfb",
     "code": "50871",
     "popularity": 0,
-    "nipCode": "090193",
+    "nipCode": "090193"
   },
   {
     "name": "Unilag Microfinance Bank",
     "slug": "unilag-microfinance-bank-ng",
     "code": "51316",
     "popularity": 0,
-    "nipCode": "090452",
+    "nipCode": "090452"
   },
   {
     "name": "UNIMAID MICROFINANCE BANK",
     "slug": "unimaid-microfinance-bank-ng",
     "code": "50875",
     "popularity": 0,
-    "nipCode": "090464",
+    "nipCode": "090464"
   },
   {
     "name": "UNION BANK",
     "slug": "union-bank-of-nigeria",
     "code": "032",
     "popularity": 80,
-    "nipCode": "000018",
+    "nipCode": "000018"
   },
   {
     "name": "UNITED BANK FOR AFRICA",
     "slug": "united-bank-for-africa",
     "code": "033",
     "popularity": 93,
-    "nipCode": "000004",
+    "nipCode": "000004"
   },
   {
     "name": "UNITY BANK",
     "slug": "unity-bank",
     "code": "215",
     "popularity": 75,
-    "nipCode": "000011",
+    "nipCode": "000011"
   },
   {
     "name": "UNIUYO MICROFINANCE BANK",
     "slug": "uniuyo-microfinance-bank-ltd-ng",
     "code": "50880",
     "popularity": 0,
-    "nipCode": "090338",
+    "nipCode": "090338"
   },
   {
     "name": "Uzondu Microfinance Bank Awka Anambra State",
     "slug": "uzondu-microfinance-bank-awka-anambra-state-ng",
     "code": "50894",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "VALE FINANCE LIMITED",
     "slug": "vale-finance",
     "code": "050020",
     "popularity": 0,
-    "nipCode": "050020",
+    "nipCode": "050020"
   },
   {
     "name": "VFD MFB",
     "slug": "vfd",
     "code": "566",
     "popularity": 50,
-    "nipCode": "090110",
+    "nipCode": "090110"
   },
   {
     "name": "Waya Microfinance Bank LTD",
     "slug": "waya-microfinance-bank-ng",
     "code": "51355",
     "popularity": 22,
-    "nipCode": "090590",
+    "nipCode": "090590"
   },
   {
     "name": "WEMA BANK",
     "slug": "wema-bank",
     "code": "035",
     "popularity": 80,
-    "nipCode": "000017",
+    "nipCode": "000017"
   },
   {
     "name": "Weston-Charis MFB",
     "slug": "weston-charis-mfb-ng",
     "code": "51386",
     "popularity": 0,
-    "nipCode": "090741",
+    "nipCode": "090741"
   },
   {
     "name": "XPRESS WALLET",
     "slug": "xpress-wallet-ng",
     "code": "100040",
     "popularity": 0,
-    "nipCode": "100040",
+    "nipCode": "100040"
   },
   {
     "name": "Yes MICROFINANCE BANK",
     "slug": "yes-mfb-ng",
     "code": "594",
     "popularity": 0,
-    "nipCode": "090142",
+    "nipCode": "090142"
   },
   {
     "name": "Zap",
     "slug": "zap",
     "code": "00zap",
     "popularity": 0,
-    "nipCode": null,
+    "nipCode": null
   },
   {
     "name": "ZENITH BANK",
     "slug": "zenith-bank",
     "code": "057",
     "popularity": 95,
-    "nipCode": "000015",
+    "nipCode": "000015"
   },
   {
     "name": "Zitra MFB",
     "slug": "zitra-mfb-ng",
     "code": "51373",
     "popularity": 0,
-    "nipCode": null,
-  },
-];
+    "nipCode": null
+  }
+]

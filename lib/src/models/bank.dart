@@ -2,6 +2,7 @@ class Bank {
   final String name;
   final String? slug;
   final String code;
+  final String? nipCode;
   final String? ussd;
   final int popularity;
 
@@ -9,6 +10,7 @@ class Bank {
     required this.name,
     required this.code,
     this.slug,
+    this.nipCode,
     this.ussd,
     this.popularity = 0,
   });

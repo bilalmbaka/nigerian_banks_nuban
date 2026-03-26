@@ -16,6 +16,7 @@ class NigerianBanks {
           name: e["name"] as String,
           slug: e["slug"] as String?,
           code: e["code"] as String,
+          nipCode: e["nipCode"] as String?,
           ussd: e["ussd"] as String?,
           popularity: (e["popularity"] as int?) ?? 0,
         );
@@ -31,9 +32,9 @@ class NigerianBanks {
   }
 
   /// Returns a bank by its slug.
-  Bank? getBankBySlug(String slug, {List<Bank>? availableBanks}) {
+  Bank? getBankBySlug(String slug) {
     try {
-      return (availableBanks ?? banks).firstWhere(
+      return banks.firstWhere(
         (bank) => bank.slug?.toLowerCase().trim() == slug.toLowerCase().trim(),
       );
     } catch (e) {
@@ -42,9 +43,9 @@ class NigerianBanks {
   }
 
   /// Returns a bank by its code.
-  Bank? getBankByCode(String code, {List<Bank>? availableBanks}) {
+  Bank? getBankByCode(String code) {
     try {
-      return (availableBanks ?? banks).firstWhere(
+      return banks.firstWhere(
         (bank) => bank.code.toLowerCase().trim() == code.toLowerCase().trim(),
       );
     } catch (e) {
@@ -54,17 +55,12 @@ class NigerianBanks {
 
   /// Returns a list of banks that match the account number's check digit.
   /// This relies on the NUBAN algorithm.
-  List<Bank> getBanksByAccountNumber(
-    String accountNumber, {
-    List<Bank>? availableBanks,
-  }) {
+  List<Bank> getBanksByAccountNumber(String accountNumber) {
     if (accountNumber.length != 10) {
       return [];
     }
 
-    final source = availableBanks ?? banks;
-
-    final result = source.where((bank) {
+    final result = banks.where((bank) {
       // Skip banks with non-numeric codes (e.g. 035A)
       final isNumeric = RegExp(r'^[0-9]+$').hasMatch(bank.code);
       if (!isNumeric) {
@@ -78,15 +74,14 @@ class NigerianBanks {
   }
 
   /// Finds a bank by name using fuzzy matching.
-  Bank? findBankByName(String name, {List<Bank>? availableBanks}) {
+  Bank? findBankByName(String name) {
     final normalizedInput = normalizeName(name);
     if (normalizedInput.isEmpty) return null;
 
-    final source = availableBanks ?? banks;
     Bank? bestMatch;
     int bestScore = 0;
 
-    for (final bank in source) {
+    for (final bank in banks) {
       final normalizedBankName = normalizeName(bank.name);
 
       if (normalizedBankName == normalizedInput) {
@@ -104,13 +99,12 @@ class NigerianBanks {
   }
 
   /// Searches banks by name, slug, or code.
-  List<Bank> searchBanks(String query, {List<Bank>? availableBanks}) {
+  List<Bank> searchBanks(String query) {
     if (query.isEmpty) return [];
 
     final normalizedQuery = query.toLowerCase().trim();
-    final source = availableBanks ?? banks;
 
-    final result = source.where((bank) {
+    final result = banks.where((bank) {
       return bank.name.toLowerCase().contains(normalizedQuery) ||
           (bank.slug?.toLowerCase().contains(normalizedQuery) == true) ||
           bank.code.toLowerCase().contains(normalizedQuery) ||
@@ -125,10 +119,20 @@ class NigerianBanks {
   bool _isNubanValid(String bankCode, String accountNumber) {
     if (accountNumber.length != 10) return false;
 
+    String paddedBankCode;
+    if (bankCode.length == 3) {
+      paddedBankCode = bankCode.padLeft(6, '0'); // DMBs: 011 -> 000011
+    } else if (bankCode.length == 5) {
+      paddedBankCode = '9$bankCode'; // OFIs: 50547 -> 950547
+    } else if (bankCode.length == 6) {
+      paddedBankCode = bankCode; // Already 6 digits
+    } else {
+      return false;
+    }
+
     final String serialNumber = accountNumber.substring(0, 9);
     final int checkDigit = int.parse(accountNumber.substring(9));
 
-    final String paddedBankCode = bankCode.padLeft(6, '0');
     final String verificationString = paddedBankCode + serialNumber;
 
     const List<int> weights = [3, 7, 3, 3, 7, 3, 3, 7, 3, 3, 7, 3, 3, 7, 3];
